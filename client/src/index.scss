@@ -130,9 +130,11 @@ body,
   height: 25px !important;
 }
 
-.icon-phone {
-  width: 16px !important;
-  height: 16px !important;
+.green-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
 }
 
 .icon-chat {

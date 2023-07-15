@@ -10,7 +10,7 @@ const CustomerHeader = ({chat}) =>{
                 <h3 className="header-text">{chat.title}</h3>
             </div>
             <div className="flexbetween">
-            <PhoneIcon className="icon-phone" />
+            <div className="green-dot" />
         {chat.description !== "⬅️ ⬅️ ⬅️" ? (
           <p className="header-text">{chat.description}</p>
         ) : (
